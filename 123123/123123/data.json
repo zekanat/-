@@ -1,0 +1,93 @@
+{
+  "trainers": [
+    {
+      "name": "Иван Петров",
+      "specialization": "Йога",
+      "max_classes_per_day": 6,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "андрей",
+      "specialization": "танцы",
+      "max_classes_per_day": 6
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Студия А",
+      "capacity": 20,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "noool",
+      "capacity": 20
+    }
+  ],
+  "class_types": [
+    {
+      "name": "Йога для начинающих",
+      "duration_minutes": 60,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "танцыы",
+      "duration_minutes": 60
+    }
+  ],
+  "scheduled_classes": [
+    {
+      "class_type_id": 1,
+      "trainer_id": 1,
+      "room_id": 1,
+      "start_time": "2025-12-11T10:00:00",
+      "end_time": "2025-12-11T11:00:00",
+      "max_enrollment": 20,
+      "id": 1,
+      "current_enrollment": 1
+    },
+    {
+      "class_type_id": 2,
+      "trainer_id": 2,
+      "room_id": 2,
+      "start_time": "2025-04-10T12:00:00",
+      "end_time": "2025-04-10T13:00:00",
+      "max_enrollment": 20,
+      "current_enrollment": 1,
+      "id": 2
+    }
+  ],
+  "clients": [
+    {
+      "name": "Мария Сидорова",
+      "email": "maria@example.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "тема",
+      "email": "1qwertyuiop125@mail.ru"
+    },
+    {
+      "id": 3,
+      "name": "тема",
+      "email": "qwertyuiop@mail.com"
+    }
+  ],
+  "enrollments": [
+    {
+      "scheduled_class_id": 1,
+      "client_id": 1,
+      "id": 1,
+      "status": "enrolled"
+    },
+    {
+      "id": 2,
+      "scheduled_class_id": 2,
+      "client_id": 3,
+      "status": "enrolled"
+    }
+  ]
+}
